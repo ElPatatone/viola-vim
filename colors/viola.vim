@@ -1,4 +1,4 @@
-" Name:       gusher.vim
+" Name:       .vim
 " Version:    0.1.0
 " Maintainer: github.com/Rustysrp
 " License:    The MIT License (MIT)
@@ -17,7 +17,7 @@ if exists('syntax on')
     syntax reset
 endif
 
-let g:colors_name='viola-vim'
+let g:colors_name='viola'
 
 let s:black           = { "gui": "#000000", "cterm": "232" }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
