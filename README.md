@@ -1,10 +1,8 @@
 # Paramount
 
-A minimal colorscheme for Vim that only puts emphasis on the paramount.
-
 ## Screenshots
 
-*Fira Code* font on light and dark backgrounds, with Ruby code from
+_Fira Code_ font on light and dark backgrounds, with Ruby code from
 [VimColors](vimcolors.com/438/paramount/dark):
 
 ![](screenshots/light.png)
