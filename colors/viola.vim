@@ -54,13 +54,14 @@ if &background == "dark"
   let s:bg_subtle       = s:lighter_black
   let s:bg_very_subtle  = s:subtle_black
   let s:norm            = s:lighter_gray
-  let s:norm_subtle     = s:light_cyan
+  let s:norm_subtle     = s:light_gray
   let s:purple          = s:light_purple
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
   let s:red             = s:light_red
   let s:visual          = s:light_purple
   let s:yellow          = s:light_yellow
+  let s:pink = s:pink
 else
   let s:bg              = s:actual_white
   let s:bg_subtle       = s:light_gray
@@ -108,7 +109,7 @@ hi! link String           Constant
 hi! link Identifier       Normal
 hi! link Function         Identifier
 
-call s:h("Statement",     {"fg": s:yellow})
+call s:h("Statement",     {"fg": s:pink})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
