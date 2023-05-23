@@ -18,7 +18,6 @@ if exists('syntax on')
 endif
 
 let g:colors_name='viola'
-keymap("n", "<leader>p", ":Git push<CR>", opts)
 
 let s:black           = { "gui": "#000000", "cterm": "232" }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
