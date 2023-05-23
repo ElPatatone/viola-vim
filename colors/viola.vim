@@ -121,7 +121,7 @@ hi! link Exception        Statement
 
 call s:h("Operator",      {"fg": s:norm, "cterm": "bold", "gui": "bold"})
 
-call s:h("PreProc",     {"fg": s:norm_subtle})
+call s:h("PreProc",     {"fg": s:light_red})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
@@ -145,7 +145,7 @@ call s:h("Error",         {"fg": s:actual_white, "bg": s:red, "cterm": "bold"})
 call s:h("Todo",          {"fg": s:purple, "gui": "underline", "cterm": "underline"})
 call s:h("SpecialKey",    {"fg": s:light_green})
 call s:h("NonText",       {"fg": s:medium_gray})
-call s:h("Directory",     {"fg": s:dark_blue})
+call s:h("Directory",     {"fg": s:pink})
 call s:h("ErrorMsg",      {"fg": s:red})
 call s:h("IncSearch",     {"bg": s:yellow, "fg": s:light_black})
 call s:h("Search",        {"bg": s:light_green, "fg": s:light_black})
