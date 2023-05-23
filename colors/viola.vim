@@ -1,14 +1,7 @@
-" Name:       paramount.vim
-" Version:    0.1.0
-" Maintainer: github.com/owickstrom
+" Name:       viola-vim 
+" Maintainer: github.com/ElPatatone
+" Original Repo: https://github.com/owickstrom/vim-colors-paramount 
 " License:    The MIT License (MIT)
-"
-" A minimal colorscheme for Vim that only puts emphasis on the paramount.
-"
-" Based on the pencil and off colorschemes:
-"
-" https://github.com/reedes/vim-colors-pencil
-" https://github.com/reedes/vim-colors-off
 "
 """
 hi clear
@@ -32,9 +25,9 @@ let s:lightest_gray   = { "gui": "#EEEEEE", "cterm": "255" }
 let s:pink            = { "gui": "#FF5BAB", "cterm": "9"   }
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
-let s:light_pink = { "gui": "#AB799D", "cterm": "167" }
+let s:light_pink      = { "gui": "#AB799D", "cterm": "167" }
 let s:darker_blue     = { "gui": "#005F87", "cterm": "18"  }
-let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"   }
+let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"  }
 let s:blue            = { "gui": "#20BBFC", "cterm": "12"  }
 let s:light_blue      = { "gui": "#b6d6fd", "cterm": "153" }
 let s:dark_cyan       = { "gui": "#20A5BA", "cterm": "6"   }
@@ -44,7 +37,7 @@ let s:light_green     = { "gui": "#5FD7A7", "cterm": "10"  }
 let s:dark_purple     = { "gui": "#af5fd7", "cterm": "134" }
 let s:light_purple    = { "gui": "#a790d5", "cterm": "140" }
 let s:yellow          = { "gui": "#F3E430", "cterm": "11"  }
-let s:light_yellow    = { "gui": "#ffff87", "cterm": "228"   }
+let s:light_yellow    = { "gui": "#ffff87", "cterm": "228" }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
 let s:background = &background
@@ -55,10 +48,10 @@ if &background == "dark"
   let s:bg_very_subtle  = s:subtle_black
   let s:norm            = s:lighter_gray
   let s:norm_subtle     = s:light_gray
-  let s:light_pink = s:light_pink
+  let s:light_pink      = s:light_pink
   let s:purple          = s:light_purple
-  let s:light_red = s:light_red
-  let s:dark_purple          = s:dark_purple
+  let s:light_red       = s:light_red
+  let s:dark_purple     = s:dark_purple
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
   let s:red             = s:light_red
