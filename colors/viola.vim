@@ -56,6 +56,7 @@ if &background == "dark"
   let s:norm            = s:lighter_gray
   let s:norm_subtle     = s:light_gray
   let s:purple          = s:light_purple
+  let s:dark_purple          = s:dark_purple
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
   let s:red             = s:light_red
@@ -98,7 +99,7 @@ endif
 call s:h("Cursor",        {"bg": s:purple, "fg": s:norm })
 call s:h("Comment",       {"fg": s:bg_subtle, "gui": "italic"})
 
-call s:h("Constant",      {"fg": s:purple})
+call s:h("Constant",      {"fg": s:dark_purple})
 hi! link Character        Constant
 hi! link Number           Constant
 hi! link Boolean          Constant
