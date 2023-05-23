@@ -29,7 +29,7 @@ let s:lighter_black   = { "gui": "#4E4E4E", "cterm": "239" }
 let s:light_gray      = { "gui": "#A8A8A8", "cterm": "248" }
 let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
 let s:lightest_gray   = { "gui": "#EEEEEE", "cterm": "255" }
-let s:pink            = { "gui": "#fb007a", "cterm": "9"   }
+let s:pink            = { "gui": "#FF5BAB", "cterm": "9"   }
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
 let s:orange          = { "gui": "#D75F5F", "cterm": "167" }
@@ -55,6 +55,7 @@ if &background == "dark"
   let s:bg_very_subtle  = s:subtle_black
   let s:norm            = s:lighter_gray
   let s:norm_subtle     = s:light_gray
+  let s:orange = s:orange
   let s:purple          = s:light_purple
   let s:dark_purple          = s:dark_purple
   let s:cyan            = s:light_cyan
@@ -130,7 +131,7 @@ hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-call s:h("Special",       {"fg": s:norm_subtle, "gui": "italic"})
+call s:h("Special",       {"fg": s:orange, "gui": "italic"})
 hi! link SpecialChar      Special
 hi! link Tag              Special
 hi! link Delimiter        Special
