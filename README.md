@@ -16,3 +16,7 @@ use {'ElPatatone/viola-vim'}
 ```
 
 [packer.nvim]: https://github.com/junegunn/vim-plug
+
+### Demo
+
+![demo](screenshots/demo.png)
